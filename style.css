@@ -144,3 +144,20 @@ a{
     font-size: 18px;
 }
 
+.quote{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 500px;
+
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
