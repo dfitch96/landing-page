@@ -64,7 +64,7 @@ a{
 
 .main-text{
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 1000;
     color: #F9FAF8;
 
 }
@@ -98,8 +98,10 @@ a{
 .info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    
+    height: 500px;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -108,9 +110,10 @@ a{
 .info-header{
 
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 1000;
     color: #1F2937;
-    margin: 50px;
+    margin: 40px;
+    
 }
 
 .info-container{
@@ -119,16 +122,25 @@ a{
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0;
     gap: 45px;
 }
 
 .box{
+    
     border-width: 4px;
     border-color:  #3882F6;
     border-style: solid;
     border-radius: 15px;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 15px;
+
+}
+
+.info-text{
+
+    color: gray;
+    text-align: center;
+    font-size: 18px;
 }
 
