@@ -2,6 +2,7 @@ body{
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -15,13 +16,14 @@ body{
     padding: 0;
     color: #F9FAF8;
     background-color: #1F2937;
+    
 }
 
 .logo{
     font-size: 24px;
     font-weight: 800;
     color: white;
-    margin-left: 400px;
+    margin-left: 15vw;
 }
 
 
@@ -29,7 +31,7 @@ ul{
     list-style-type: none;
     display: flex;
     gap: 24px;
-    margin-right: 400px;
+    margin-right: 15vw;
 }
 
 a{
@@ -55,7 +57,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin-left: 400px;
+    margin-left: 15vw;;
     gap: 24px;
 
 }
@@ -89,6 +91,6 @@ a{
     background-color: grey;
     width: 500px;
     height: 250px;
-    margin-right: 400px;
+    margin-right: 15vw;;
 }
 
